@@ -1,4 +1,4 @@
-# dash-clinical-analytics
+# dash-clinical-dashboard
 
 ## About this app
 
