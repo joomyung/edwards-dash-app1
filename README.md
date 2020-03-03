@@ -40,7 +40,7 @@ python app1.py
 
 ## Screenshot
 
-![screenshot](img/screencapture.png)
+![screenshot](img/screenshot.png)
 
 ## Resources
 
