@@ -1,17 +1,11 @@
 import dash
-import dash_auth
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
 import plotly.graph_objs as go
 import pandas as pd
 
-USERNAME_PASSWORD_PAIRS = [
-    ['edwards', 'edwards'], ['admin', 'admin']
-]
-
 app = dash.Dash()
-auth = dash_auth.BasicAuth(app, USERNAME_PASSWORD_PAIRS)
 server = app.server
 
 xls = pd.ExcelFile('edwards_study.csv')
